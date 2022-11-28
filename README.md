@@ -15,7 +15,7 @@ After that run:
 
 > Description
 
-### Welcome to the Minotaur Game
+### Details
 
 In this game, you play as an Adventure who tries to escape a maze dungeon. 
 
