@@ -33,3 +33,5 @@ This game contains:
 - In game Shop
 - Character Inventory
 - 3 different levels
+
+> *still in development
