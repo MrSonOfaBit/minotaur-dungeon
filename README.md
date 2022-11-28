@@ -24,6 +24,7 @@ This game contains:
 - User Login (run in terminal json-server --watch db.json to start db)
 - Achievements to collect and save
 - Settings
+- Random generated map and items
 - Fight System
 - Minotaur AI
 - Items to collect and use
