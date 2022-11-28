@@ -13,7 +13,7 @@ Clone the project and run npm install after that:
 
 > Description
 
-#### Welcome to the Minotaur Game
+### Welcome to the Minotaur Game
 
 In this game you play as a Adventure who trys to escape a maze dungeon. 
 
