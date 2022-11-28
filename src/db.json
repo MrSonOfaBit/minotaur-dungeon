@@ -1,0 +1,344 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "olli",
+      "password": "1234",
+      "difficulty": 1,
+      "achievements": {
+        "win": {
+          "win1": true,
+          "win2": true,
+          "win3": true,
+          "win4": true,
+          "win5": true,
+          "counter": 1,
+          "access": true,
+          "pics": [
+            "/static/media/win1.88c715abe2db00c98ae3.png",
+            "/static/media/win2.90357d18d2ad9d07d5b7.png",
+            "/static/media/win3.612c147ae7a45346acac.png",
+            "/static/media/win4.9a7858d3552d42eabb7a.png",
+            "/static/media/win5.f934f7ee7f15ebe6bf37.png"
+          ]
+        },
+        "died": {
+          "died1": true,
+          "died2": true,
+          "died3": true,
+          "counter": 1,
+          "access": true,
+          "pics": [
+            "/static/media/died1.85690ca7ef96c15c8e2a.png",
+            "/static/media/died2.2b6d8f0c67d9195ccc90.png",
+            "/static/media/died3.66803641833146f0637e.png"
+          ]
+        },
+        "fight": {
+          "fight1": true,
+          "fight2": true,
+          "fight3": true,
+          "fight4": true,
+          "fight5": true,
+          "counter": 0,
+          "access": true,
+          "pics": [
+            "/static/media/fight1.4773551dddb4d47eb773.png",
+            "/static/media/fight2.382d75350901192cd3ce.png",
+            "/static/media/fight3.1424aa5af8dcdea50508.png",
+            "/static/media/fight4.b4a673de3d55ea683310.png",
+            "/static/media/fight5.8be5a5cc26323586da56.png"
+          ]
+        },
+        "difficulty": {
+          "easy": true,
+          "normal": true,
+          "hard": true,
+          "deathmarch": true,
+          "counter": 0,
+          "access": true,
+          "pics": [
+            "/static/media/1easy.c17184aaee87d89444e0.png",
+            "/static/media/2normal.a5fb67a20989bb3ee647.png",
+            "/static/media/3hard.74dd14c71fbf17e06c5c.png",
+            "/static/media/4deathmarch.6257c2de53f65860b8f1.png"
+          ]
+        },
+        "health": {
+          "health1": true,
+          "health2": true,
+          "health3": true,
+          "health4": true,
+          "counter": 0,
+          "access": true,
+          "pics": [
+            "/static/media/health1.f991d3bb4fc10e63284f.png",
+            "/static/media/health2.b09d030aab370bba0ba3.png",
+            "/static/media/health3.8e23640b89ba04383b24.png",
+            "/static/media/health4.717e1fe81fb921a07bc7.png"
+          ]
+        },
+        "play": {
+          "played1": true,
+          "played2": true,
+          "played3": true,
+          "played4": true,
+          "played5": true,
+          "played6": true,
+          "counter": 2,
+          "access": true,
+          "pics": [
+            "/static/media/played1.2aaca635874b235f6ce4.png",
+            "/static/media/played2.3090bcb96a92fa6ba115.png",
+            "/static/media/played3.0d556e7cb9a63a101f0e.png",
+            "/static/media/played4.bd4ba01632c9e1ee2350.png",
+            "/static/media/played5.7f8ce97f27432779e4fc.png",
+            "/static/media/played6.6774575856e106770362.png"
+          ]
+        },
+        "option": {
+          "option1": true,
+          "option2": true,
+          "option3": true,
+          "counter": 24,
+          "access": true,
+          "pics": [
+            "/static/media/option1.40d60a7f41e567f5b85b.png",
+            "/static/media/option2.8ee4913e49e22664e1df.png",
+            "/static/media/option3.8794d67461ef3f4181dd.png"
+          ]
+        },
+        "swamp": {
+          "poison": true,
+          "counter": 0,
+          "access": true,
+          "pics": [
+            "/static/media/poison.ad31b00d2688a468833d.png"
+          ]
+        },
+        "sword": {
+          "sword1": true,
+          "sword2": true,
+          "counter": 0,
+          "access": true,
+          "pics": [
+            "/static/media/sword1.e3d1240c13029aecb145.png",
+            "/static/media/sword2.72cd33491b1b65dad095.png"
+          ]
+        },
+        "time": {
+          "time1": true,
+          "time2": true,
+          "counter": 0,
+          "access": true,
+          "pics": [
+            "/static/media/time1.c1b1ee6d0acc9a6fa5ad.png",
+            "/static/media/time2.5e06ae80dcd4aba5b7bd.png"
+          ]
+        },
+        "potion": {
+          "potion1": true,
+          "potion2": true,
+          "potion3": true,
+          "counter": 0,
+          "access": true,
+          "pics": [
+            "/static/media/potion1.30e5aad0e0c3ef917a06.png",
+            "/static/media/potion2.2b0fe43b59541ac2ca96.png",
+            "/static/media/potion3.9c597d8fd8c31bad45c9.png"
+          ]
+        },
+        "special": {
+          "bait": true,
+          "cup": true,
+          "gem": true,
+          "heart": true,
+          "question": true,
+          "star": true,
+          "target": true,
+          "counter": 0,
+          "access": true,
+          "pics": [
+            "/static/media/bait.48b6a7fc4915867bfcfd.png",
+            "/static/media/cup.d577e7f02c23e46badef.png",
+            "/static/media/gem.314d34e2f80af885f21f.png",
+            "/static/media/heart.250617ef75091e7970d1.png",
+            "/static/media/question.d0de17ef9d275662ef2d.png",
+            "/static/media/star.bbf483ce5227e777f0d7.png",
+            "/static/media/target.14d022ce5ba2bcabd60a.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": "Rene",
+      "password": "1234",
+      "difficulty": "easy",
+      "achievements": {
+        "win": {
+          "win1": true,
+          "win2": true,
+          "win3": true,
+          "win4": true,
+          "win5": true,
+          "counter": 1,
+          "access": true,
+          "pics": [
+            "/static/media/win1.88c715abe2db00c98ae3.png",
+            "/static/media/win2.90357d18d2ad9d07d5b7.png",
+            "/static/media/win3.612c147ae7a45346acac.png",
+            "/static/media/win4.9a7858d3552d42eabb7a.png",
+            "/static/media/win5.f934f7ee7f15ebe6bf37.png"
+          ]
+        },
+        "died": {
+          "died1": true,
+          "died2": true,
+          "died3": true,
+          "counter": 1,
+          "access": true,
+          "pics": [
+            "/static/media/died1.85690ca7ef96c15c8e2a.png",
+            "/static/media/died2.2b6d8f0c67d9195ccc90.png",
+            "/static/media/died3.66803641833146f0637e.png"
+          ]
+        },
+        "fight": {
+          "fight1": true,
+          "fight2": true,
+          "fight3": true,
+          "fight4": true,
+          "fight5": true,
+          "counter": 0,
+          "access": true,
+          "pics": [
+            "/static/media/fight1.4773551dddb4d47eb773.png",
+            "/static/media/fight2.382d75350901192cd3ce.png",
+            "/static/media/fight3.1424aa5af8dcdea50508.png",
+            "/static/media/fight4.b4a673de3d55ea683310.png",
+            "/static/media/fight5.8be5a5cc26323586da56.png"
+          ]
+        },
+        "difficulty": {
+          "easy": true,
+          "normal": true,
+          "hard": true,
+          "deathmarch": true,
+          "counter": 0,
+          "access": true,
+          "pics": [
+            "/static/media/1easy.c17184aaee87d89444e0.png",
+            "/static/media/2normal.a5fb67a20989bb3ee647.png",
+            "/static/media/3hard.74dd14c71fbf17e06c5c.png",
+            "/static/media/4deathmarch.6257c2de53f65860b8f1.png"
+          ]
+        },
+        "health": {
+          "health1": true,
+          "health2": true,
+          "health3": true,
+          "health4": true,
+          "counter": 0,
+          "access": true,
+          "pics": [
+            "/static/media/health1.f991d3bb4fc10e63284f.png",
+            "/static/media/health2.b09d030aab370bba0ba3.png",
+            "/static/media/health3.8e23640b89ba04383b24.png",
+            "/static/media/health4.717e1fe81fb921a07bc7.png"
+          ]
+        },
+        "play": {
+          "played1": true,
+          "played2": true,
+          "played3": true,
+          "played4": true,
+          "played5": true,
+          "played6": true,
+          "counter": 2,
+          "access": true,
+          "pics": [
+            "/static/media/played1.2aaca635874b235f6ce4.png",
+            "/static/media/played2.3090bcb96a92fa6ba115.png",
+            "/static/media/played3.0d556e7cb9a63a101f0e.png",
+            "/static/media/played4.bd4ba01632c9e1ee2350.png",
+            "/static/media/played5.7f8ce97f27432779e4fc.png",
+            "/static/media/played6.6774575856e106770362.png"
+          ]
+        },
+        "option": {
+          "option1": true,
+          "option2": true,
+          "option3": true,
+          "counter": 26,
+          "access": true,
+          "pics": [
+            "/static/media/option1.40d60a7f41e567f5b85b.png",
+            "/static/media/option2.8ee4913e49e22664e1df.png",
+            "/static/media/option3.8794d67461ef3f4181dd.png"
+          ]
+        },
+        "swamp": {
+          "poison": true,
+          "counter": 0,
+          "access": true,
+          "pics": [
+            "/static/media/poison.ad31b00d2688a468833d.png"
+          ]
+        },
+        "sword": {
+          "sword1": true,
+          "sword2": true,
+          "counter": 0,
+          "access": true,
+          "pics": [
+            "/static/media/sword1.e3d1240c13029aecb145.png",
+            "/static/media/sword2.72cd33491b1b65dad095.png"
+          ]
+        },
+        "time": {
+          "time1": true,
+          "time2": true,
+          "counter": 0,
+          "access": true,
+          "pics": [
+            "/static/media/time1.c1b1ee6d0acc9a6fa5ad.png",
+            "/static/media/time2.5e06ae80dcd4aba5b7bd.png"
+          ]
+        },
+        "potion": {
+          "potion1": true,
+          "potion2": true,
+          "potion3": true,
+          "counter": 0,
+          "access": true,
+          "pics": [
+            "/static/media/potion1.30e5aad0e0c3ef917a06.png",
+            "/static/media/potion2.2b0fe43b59541ac2ca96.png",
+            "/static/media/potion3.9c597d8fd8c31bad45c9.png"
+          ]
+        },
+        "special": {
+          "bait": true,
+          "cup": true,
+          "gem": true,
+          "heart": true,
+          "question": true,
+          "star": true,
+          "target": true,
+          "counter": 0,
+          "access": true,
+          "pics": [
+            "/static/media/bait.48b6a7fc4915867bfcfd.png",
+            "/static/media/cup.d577e7f02c23e46badef.png",
+            "/static/media/gem.314d34e2f80af885f21f.png",
+            "/static/media/heart.250617ef75091e7970d1.png",
+            "/static/media/question.d0de17ef9d275662ef2d.png",
+            "/static/media/star.bbf483ce5227e777f0d7.png",
+            "/static/media/target.14d022ce5ba2bcabd60a.png"
+          ]
+        }
+      }
+    }
+  ]
+}

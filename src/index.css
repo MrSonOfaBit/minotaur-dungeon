@@ -1,13 +1,390 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('http://fonts.cdnfonts.com/css/wonder-boy-in-monster-world');
+
+
+::-webkit-scrollbar {
+  width: 30%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Menu CSS */
+html,body{
+  background:rgb(0, 0, 0);
+  position: relative;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Wonder Boy In Monster World', sans-serif;
+ }
+.homeDiv{
+  position: relative;
+  height: 969.4px;
+  overflow: hidden;
+}
+.error404{
+  position: relative;
+  height: 969.4px;
+  width: 100%;
+  text-align: center;
+  background: url("/src/pics/errorPics/404Bg.gif") no-repeat center;
+  background-size: 100% 100%;
+}
+/* Menu and Startscreen animations */
+
+
+.menuDiv{
+  position: absolute;
+  height: 100vh;
+  width: 197vh;
+  /* border: 2px solid rgb(179, 177, 177); */
+  overflow: hidden;
+}
+.menuContent{
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+.startScreenDiv{
+  position: absolute;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid rgb(179, 177, 177); */
+  /* overflow: hidden; */
+}
+.startButtonDiv{
+  position: absolute;
+  left: 45%;
+  top: 40%;
+  background: url("/src/pics/gamePics/gameBg.gif") no-repeat center;
+  border-radius: 10px;
+  height: 100px;
+  width: 170px;
+  text-align: center;
+  box-shadow:  0px 0px 15px 20px rgba(41,52,58,255);
+}
+
+
+/* Game Menu Field */
+.gameMenu-div{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.game-MenuOptions{
+  z-index: 1;
+}
+.options{
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  z-index: 1;
+  padding: 0.5%;
+  text-shadow: 5px 5px 5px black;
+  text-align: center;
+}
+.optionField{
+  position: absolute;
+  height: 700%;
+  width: 550%;
+  background: url(../src/pics/menuPics/options.gif) no-repeat center;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  right: 30%;
+  top: 100%;
+
+  -moz-box-shadow:    inset 0 0 20px #000000;
+  -webkit-box-shadow: inset 0 0 20px #000000;
+  box-shadow:         inset 0 0 20px #000000;
+}
+
+.gameMenu-content{
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  text-align: center;
+  bottom: 0%;
+  left: 10%;
+  /* border: 2px solid rgb(179, 177, 177); */
+  background: url("/src/pics/menuPics/resting_knight.gif") no-repeat center;
+  box-shadow: inset 0px 0px 10px 10px #000000;
+  background-size: 100% 100%;
+}
+
+.player{
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.38);
+  border-radius: 15px;
+  width: 20%;
+  align-items: center;
+  left: 40%;
+}
+
+.options-character{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  left: 37%;
+}
+.knight{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url("/src/pics/menuPics/knight.gif") no-repeat center;
+  background-size: 100% 100%;
+}
+
+
+/* Game Field */
+
+.game-fieldDiv{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  box-shadow: inset 0px 0px 10px 10px #000000;
+}
+.game-field{
+  position: relative;
+  height: 100vh;
+  width: 198vh;
+  bottom: 20px;
+  left: 7%;
+}
+.game-fieldPlate{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  /* border-radius: 5px; */
+  /* color: rgba(255, 255, 255, 0.783); */
+}
+
+.game-player{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("/src/pics/gamePics/solaire.png") no-repeat;
+  background-size: 100%  100%;
+  z-index: 0;
+}
+.game-minotaurDiv{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+
+.gameEnd{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #0000005d;
+  z-index: 1;
+}
+.gameEndText{
+  position: absolute;
+  left: 45%;
+  top: 40%;
+}
+
+.game-shop{
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  background-color: rgba(78,78,78,255);
+  z-index: 1;
+  right: 9%;
+  top: 5%;
+  border-radius: 20px;
+}
+
+.game-shopInventory{
+  position: absolute;
+  height: 350px;
+  width: 440px;
+  bottom: -28%;
+  left: 8%;
+  background: url("./pics/gamePics/inventory.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.game-playerInventory{
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  background-color: rgba(78,78,78,255);
+  z-index: 1;
+  right: 45%;
+  top: 5%;
+  border-radius: 20px;
+}
+.game-shopInventory-items{
+  
+}
+
+/* Fight CSS */
+
+.fightDiv{
+  position: relative;
+  color: black;
+  width: 150%;
+  height: 100%;
+  bottom: 30px;
+}
+
+.fight-enemy{
+  position: absolute;
+  width: 40vh;
+  height: 30vh;
+  top: 17%;
+  right: 30%;
+} 
+
+.fight-enemySwamp{
+  position: absolute;
+  width: 50vh;
+  height: 40vh;
+  top: 28%;
+  right: 25%;
+  color: white;
+}
+
+.fight-enemyHp{
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  background: rgb(0, 0, 0);
+  top: -5%;
+  border-radius: 20px;
+}
+
+.fight-enemyFigure{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0%;
+} 
+
+.fight-player{
+  position: absolute;
+  width: 40vh;
+  height: 50vh;
+  bottom: 5%;
+  left: 25%;
+}
+
+.fight-playerSwamp{
+  position: absolute;
+  width: 40vh;
+  height: 50vh;
+  bottom: -2%;
+  left: 25%;
+  color: white;
+}
+
+.fight-playerHp{
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  background: rgb(0, 0, 0);
+  top: 0%;
+  border-radius: 20px;
+}
+
+.fight-playerFigure{
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  background: url("/src/pics/menuPics/knight.gif") no-repeat;
+  background-size: 130% 100%;
+}
+
+.fight-playerHpBar{
+  height: 100%;
+  background-color: red;
+  border-radius: 15px;
+}
+
+.fight-enemyHpBar{
+  height: 100%;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.fight-menu{
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.599);
+  border-radius: 10px;
+  left: 110%;
+  top: 50%;
+  color: white;
+}
+
+.fight-menuFight{
+  position: absolute;
+  left: 35%;
+
+}
+
+.fight-menuBag{
+  position: absolute;
+  top: 40%;
+  right: 10%;
+}
+
+.fight-menuEscape{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.fightOptions, .bagOptions{
+  position: absolute;
+  background-color: #000000;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.bagOptions{
+  left: -3%;
+  top: 200%;
+  z-index: 0;
+}
+
+.fight-message, .fight-effects{
+  background-color: #000000a9;
+  position: absolute;
+}
+
+.fight-effects{
+  left: -85%;
+  top: -85%;
+  height: 80%;
+  width: 50%;
+  color: white;
+  border-radius: 10px;
+}
+
+.fight-message{
+  left: 250%;
+  top: 50%;
+  height: 20%;
+  width: 100%;
+  color: white;
+  border-radius: 10px;
+}
+
+.descriptionField{
+  position: relative;
+  z-index: 1;
+  bottom: 900%;
+  height: 800%;
+  width: 800%;
+  background-color: #000000c6;
+  box-shadow: 0px 0px 15px 20px rgb(0, 0, 0);
+  border-radius: 10px;
 }
