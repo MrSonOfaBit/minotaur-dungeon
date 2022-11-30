@@ -17,7 +17,7 @@ After that run:
 
 ### Details
 
-In this game, you play as an Adventure who tries to escape a maze dungeon. 
+In this game, you play as an adventurer who tries to escape a maze dungeon. 
 
 You have to collect keys to escape the dungeon and fight a dangerous Minotaur.
 
