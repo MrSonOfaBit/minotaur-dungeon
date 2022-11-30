@@ -28,7 +28,7 @@ This game contains:
 - Game Settings
 - Random generated map and items
 - Fight System against Minotaur
-- Minotaur AI
+- Minotaur enemy
 - Items to collect and use
 - In game Shop
 - Character Inventory
