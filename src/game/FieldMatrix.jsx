@@ -122,7 +122,8 @@ export function mazeGen(){
     setMagmaAndPath(matrix)
     setGems(matrix)
     setItems(matrix)
-    console.log(data["player"]["health"])
+    /* console.log(data["player"]["health"]) */
+    console.log(matrix)
     return matrix
 }
 
